@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <div id="card_details">
+      <img
+        id="card-holder"
+        src="./images/bg-main-desktop.png"
+        alt=""
+        srcset=""
+      />
+      <div class="card_photo">
+        <img id="card-front" src="./images/bg-card-front.png" />
+        <img id="card-back" src="./images/bg-card-back.png" />
+      </div>
+      <div class="form">
+        <form action="" id="form">
+          <label for="name">CARDHOLDER NAME</label>
+          <input type="text" id="name" placeholder="e.g. Jane Appleaseed"/>
+          <label for="number">CARD NUMBER</label>
+          <input type="text" id="number" placeholder="e.g. 1234 5678 9123 0000"/>
+          <label for="date"
+            >EXP. DATE &nbsp; &nbsp;&nbsp;&nbsp; (MM/YY) &nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVV</label
+          >
+          <div class="date">
+            <div class="date1">
+              <input type="text" id="date" placeholder="MM"/>
+              <input type="text" id="date" placeholder="YY"/>
+            </div>
+            <div>
+              <input type="text" id="date cvv" placeholder="e.g. 123"/>
+            </div>
+          </div>
+          <input type="text" class="button" value="Confirm" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
